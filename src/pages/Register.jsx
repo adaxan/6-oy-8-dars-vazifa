@@ -98,7 +98,8 @@ function Register() {
     navigate('/login')
   }
   return (
-    <div className="mt-36">
+    <div className="base-container mt-20">
+      <h1 className="text-7xl text-center font-extrabold text-purple-700">Register</h1>
       <form className="max-w-sm mx-auto mt-6">
         <div className="mb-5">
           <label

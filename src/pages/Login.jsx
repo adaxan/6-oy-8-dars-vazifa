@@ -55,7 +55,8 @@ function Login() {
     navigate('/')
   }
   return (
-    <div className="mt-40">
+    <div className="base-container mt-32">
+      <h1 className="text-7xl text-center font-extrabold text-purple-700">Login</h1>
       <form className="max-w-sm mx-auto mt-6">
         <div className="mb-5">
           <label
