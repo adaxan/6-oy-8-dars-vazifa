@@ -169,6 +169,7 @@ function Register() {
         >
           Register new account
         </button>
+        <h2 className="text-2xl font-extrabold text-blue-600">OR</h2>
         <button
           type="submit"
           className=" text-white btn btn-outline btn-secondary"
