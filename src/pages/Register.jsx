@@ -137,7 +137,7 @@ function Register() {
             htmlFor="password"
             className="block mb-2 text-sm font-medium text-white dark:text-white"
           >
-            Your password
+            Create password
           </label>
           <input
             ref={passwordRef}
