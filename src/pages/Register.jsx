@@ -41,7 +41,7 @@ function Register() {
 
     if (!validatePassword(passwordRef.current.value)) {
       alert(
-        "Password is not valid. It must be at least 5 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character."
+        "Password is not valid. It must be at least 5 characters long."
       );
       passwordRef.current.focus();
       passwordRef.current.style.outlineColor = "red";
