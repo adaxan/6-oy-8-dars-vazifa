@@ -96,7 +96,7 @@ function Register() {
     navigate('/login')
   }
   return (
-    <div className="base-container mt-20">
+    <div className="base-container mt-20 ">
       <h1 className="text-7xl text-center font-extrabold text-purple-700">Register</h1>
       <form className="max-w-sm mx-auto mt-6">
         <div className="mb-5">
@@ -169,7 +169,6 @@ function Register() {
         >
           Register new account
         </button>
-        <h2 className="text-2xl font-extrabold text-blue-600">OR</h2>
         <button
           type="submit"
           className=" text-white btn btn-outline btn-secondary"

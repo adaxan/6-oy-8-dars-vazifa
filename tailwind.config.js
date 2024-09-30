@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {customDark: '#030712'},
   },
   plugins: [require('daisyui'), require('flowbite/plugin')],
 }
